@@ -3,10 +3,11 @@ package rediswatcher_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/google/uuid"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/google/uuid"
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/persist"
